@@ -37,15 +37,17 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a Data and Software Development Enthusiast
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Arnold Sidiprasetija
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>
+            Bangkit Academy 2022 Graduate | Junior iOS Developer
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -57,18 +59,18 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="100px"
-            h="100px"
+            w="120px"
+            h="120px"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/arnold.jpg"
               alt="Profile image"
-              borderRadius="full"
-              width="100%"
-              height="100%"
+              // borderRadius="full"
+              width="120%"
+              height="120%"
             />
           </Box>
         </Box>
@@ -76,29 +78,21 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+        For now, Arnold is a final-year student of the Bachelor of Computer Engineering program at the Sepuluh Nopember Institute of Technology. 
+        His enthusiasm for data and software development began to emerge at the start of the college, where technological developments were very rapid. 
+        Therefore, during college, he also actively took online courses to increase his knowledge. 
+        Opportunities to study elsewhere were also taken, such as becoming part of the Bangkit Academy cohort led by Google, GoTo, and Traveloka, as well as be the Apple Developer Academy @UC 2022 cohort. 
+        At Bangkit Academy, he took the machine learning path to deepen his knowledge of data and successfully worked with Indosat Ooredoo Hutchison as the Company Capstone Project. 
+        While at the Apple Developer Academy at UC, he took iOS Developer to deepen his knowledge in software development, especially in the Apple environment. 
+        More or less, he has 1 year of experience in iOS Development.
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
+        <Box align="left" my={4}>
+          <NextLink href="" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              See My Resume
             </Button>
           </NextLink>
         </Box>
