@@ -89,13 +89,14 @@ const Home = () => (
         While at the Apple Developer Academy at UC, he took iOS Developer to deepen his knowledge in software development, especially in the Apple environment. 
         More or less, he has 1 year of experience in iOS Development.
         </Paragraph>
-        <Box align="left" my={4}>
+        <Box align="center" my={4}>
           <NextLink href="" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               See My Resume
             </Button>
           </NextLink>
         </Box>
+        
       </Section>
 
       <Section delay={0.2}>
@@ -122,7 +123,7 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -137,7 +138,7 @@ const Home = () => (
           </Link>
           , Leica, Machine Learning
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
