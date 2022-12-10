@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbBtcForecasting from '../public/images/works/btcforecasting.png'
 import thumbRedMi from '../public/images/works/redmi-fuel-band-eda.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import thumbRisaikuru from '../public/images/works/risaikuru.png'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
@@ -39,16 +39,15 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="risaikuru"
+            title="Risaikuru"
+            thumbnail={thumbRisaikuru}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Deep learning model for trash classification website
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Risaikuru">
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
