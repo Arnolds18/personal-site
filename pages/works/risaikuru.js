@@ -24,10 +24,10 @@ const Work = () => (
         A website for classifying waste using an image 
         classification that is trained through a deep learning model.
         This project was used to take part in the 
-        Google Developer Student Club (GDSC) Hackfest 2022
+        Google Developer Student Club Indonesia (GDSC) Hackfest 2022
         and managed to become the Top 10 best projects.
-        The next step is submitting this project to the Solution 
-        Challenge hosted by the Google Developer Student Club
+        The next step is submitting this project to the international Solution 
+        Challenge hosted by the Google Developer Student Club.
       </P>
       <List ml={4} my={4}>
       <Meta>Website</Meta>
@@ -46,12 +46,9 @@ const Work = () => (
         </ListItem>
       </List>
       
-      <WorkImage
-        src="/images/works/the-four-painters_eyecatch.jpg"
-        alt="walknote"
-      />
-      <WorkImage src="/images/works/the-four-painters_01.jpg" alt="walknote" />
-      <WorkImage src="/images/works/the-four-painters_02.jpg" alt="walknote" />
+      <WorkImage src="/images/works/risaikuru-01.png" alt="risaikuru" />
+      <WorkImage src="/images/works/risaikuru-cert.png" alt="risaikurucertificate" />
+     
     </Container>
   </Layout>
 )
