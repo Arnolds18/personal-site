@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbBtcForecasting from '../public/images/works/btcforecasting.png'
 import thumbRedMi from '../public/images/works/redmi-fuel-band-eda.png'
 import thumbRisaikuru from '../public/images/works/risaikuru.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbReplasc from '../public/images/works/replasc.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -23,22 +23,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="btcforecasting" title="Cryptocurrency Forecasting" thumbnail={thumbBtcForecasting}>
-          A project of forecasting technique using FbProphet
+        <WorkGridItem id="replasc" thumbnail={thumbReplasc} title="Replasc">
+            An app to increase public awareness 
+            about plastic waste and decreasing 
+            gas emission.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="redmi"
-            title="Redmi Fuel Band Tracker"
-            thumbnail={thumbRedMi}
-          >
-            Exploratory Data Analysis Project using Python
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
+        <WorkGridItem
             id="risaikuru"
             title="Risaikuru"
             thumbnail={thumbRisaikuru}
@@ -46,10 +38,19 @@ const Works = () => (
             Deep learning model for trash classification website
           </WorkGridItem>
         </Section>
+
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Risaikuru">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+        <WorkGridItem id="btcforecasting" title="Cryptocurrency Forecasting" thumbnail={thumbBtcForecasting}>
+          A project of forecasting technique using FbProphet
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+        <WorkGridItem
+            id="redmi"
+            title="Redmi Fuel Band Tracker"
+            thumbnail={thumbRedMi}
+          >
+            Exploratory Data Analysis Project using Python
           </WorkGridItem>
         </Section>
       </SimpleGrid>

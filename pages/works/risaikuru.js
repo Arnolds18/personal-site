@@ -15,10 +15,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Risaikuru">
+  <Layout title="Risaikuru (リサイクル)">
     <Container>
       <Title>
-        Risaikuru <Badge>2022</Badge>
+        Risaikuru (リサイクル) <Badge>2022</Badge>
       </Title>
       <P>
         A website for classifying waste using an image 
