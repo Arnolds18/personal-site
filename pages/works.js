@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbBtcForecasting from '../public/images/works/btcforecasting.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbRedMi from '../public/images/works/redmi-fuel-band-eda.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
@@ -24,16 +24,16 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="btcforecasting" title="Cryptocurrency Forecasting" thumbnail={thumbBtcForecasting}>
-          A project of forecasting technique using FbProphet.
+          A project of forecasting technique using FbProphet
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="redmi"
+            title="Redmi Fuel Band Tracker"
+            thumbnail={thumbRedMi}
           >
-            Music recommendation app for iOS
+            Exploratory Data Analysis Project using Python
           </WorkGridItem>
         </Section>
 

@@ -86,7 +86,7 @@ const Home = () => (
         Therefore, during college, he also actively took online courses to increase his knowledge. 
         Opportunities to study elsewhere were also taken, such as becoming part of the Bangkit Academy cohort led by Google, GoTo, and Traveloka, as well as be the Apple Developer Academy @UC 2022 cohort. 
         At Bangkit Academy, he took the machine learning path to deepen his knowledge of data and successfully worked with Indosat Ooredoo Hutchison as the Company Capstone Project. 
-        While at the Apple Developer Academy at UC, he took iOS Developer to deepen his knowledge in software development, especially in the Apple environment. 
+        While at the Apple Developer Academy @ UC, he took iOS Developer to deepen his knowledge in software development, especially in the Apple environment. 
         More or less, he has 1 year of experience in iOS Development.
         </Paragraph>
         <Box align="center" my={4}>
