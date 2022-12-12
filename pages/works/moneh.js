@@ -4,6 +4,7 @@ import {
   Link,
   List,
   ListItem,
+  UnorderedList,
   AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
@@ -12,53 +13,45 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Margelo">
+  <Layout title="Moneh">
     <Container>
       <Title>
-        Margelo <Badge>2022</Badge>
+        Moneh <Badge>2022</Badge>
       </Title>
       <P>
-      An app made specifically for college students, 
-      that helps monthly money management 
-      in an easy way.
+      An iOS app made specifically for college students, 
+      that helps monthly money management in an easy way.
       </P>
-      <P>
-        <Link href="https://twitter.com/mrousavy" target="_blank">
-          Marc Rousavy <ExternalLinkIcon mx="2px" />
-        </Link>
-        , the founder of the agency, is my friend from the React Native
-        community. I coded the design they&apos;ve sent me, which consists of
-        parallax effects inspired by Apple. I&apos;ve published a video showing
-        the process of building the website as a tutorial on YouTube.
-      </P>
+      <UnorderedList my={4}>
+        <ListItem>For college students</ListItem>
+        <ListItem>Requiring regular budgeting and record keeping</ListItem>
+        <ListItem>Dividing the budget into certain segments, tracking with attractive visuals, accompanied by widgets and reminders to facilitate regular recording</ListItem>
+      </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <span>
-            <Link href="https://margelo.io/" target="_blank">
-              https://margelo.io/ <ExternalLinkIcon mx="2px" />
-            </Link>
-          </span>
-        </ListItem>
-        <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Next.js / TypeScript / Vercel / Formspree / Fathom / Embla Carousel
+            SwiftUI, Widget
           </span>
         </ListItem>
         <ListItem>
-          <Meta>Video</Meta>
-          <Link href="https://www.youtube.com/watch?v=GznmPACXBlY">
-            How I built a software agency website with Next.js + Tailwind CSS
-            (in nature) <ExternalLinkIcon mx="2px" />
+          <Meta>Platform</Meta>
+          <span>
+            iOS
+          </span>
+        </ListItem>
+        <ListItem>
+          <Meta>Source Code</Meta>
+          <Link href="https://github.com/Arnolds18/mimoni">
+            Moneh<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
+      <WorkImage src="/images/works/moneh-01.png" alt="moneh" />
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/GznmPACXBlY"
           title="YouTube video player"
@@ -66,11 +59,10 @@ const Work = () => (
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </AspectRatio>
+      </AspectRatio> */}
 
-      <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_03.png" alt="Margelo" />
+      <WorkImage src="/images/works/moneh-02.png" alt="moneh" />
+
     </Container>
   </Layout>
 )
