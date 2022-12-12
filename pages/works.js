@@ -8,7 +8,7 @@ import thumbRedMi from '../public/images/works/redmi-fuel-band-eda.png'
 import thumbRisaikuru from '../public/images/works/risaikuru.png'
 import thumbReplasc from '../public/images/works/replasc.png'
 import thumbMoneh from '../public/images/works/moneh-02.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+import thumbTribie from '../public/images/works/tribie-01.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
@@ -71,11 +71,11 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            id="tribie"
+            thumbnail={thumbTribie}
+            title="Tribie"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            A tracking expense app for traveller community.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
