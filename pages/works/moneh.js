@@ -18,8 +18,9 @@ const Work = () => (
         Margelo <Badge>2022</Badge>
       </Title>
       <P>
-        The corporate website for the elite app development and contracting
-        agency based in Vienna, Austria.
+      An app made specifically for college students, 
+      that helps monthly money management 
+      in an easy way.
       </P>
       <P>
         <Link href="https://twitter.com/mrousavy" target="_blank">

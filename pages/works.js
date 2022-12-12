@@ -7,7 +7,7 @@ import thumbBtcForecasting from '../public/images/works/btcforecasting.png'
 import thumbRedMi from '../public/images/works/redmi-fuel-band-eda.png'
 import thumbRisaikuru from '../public/images/works/risaikuru.png'
 import thumbReplasc from '../public/images/works/replasc.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
+import thumbMoneh from '../public/images/works/moneh-02.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
@@ -59,15 +59,14 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          iOS App
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="moneh" thumbnail={thumbMoneh} title="Moneh">
+          A money management app specially for collage students.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
