@@ -9,10 +9,7 @@ import thumbRisaikuru from '../public/images/works/risaikuru.png'
 import thumbReplasc from '../public/images/works/replasc.png'
 import thumbMoneh from '../public/images/works/moneh-02.png'
 import thumbTribie from '../public/images/works/tribie-01.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbPurru from '../public/images/works/purru.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -66,7 +63,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="moneh" thumbnail={thumbMoneh} title="Moneh">
-          A money management app specially for collage students.
+          A money management app specially for collage students
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -75,17 +72,18 @@ const Works = () => (
             thumbnail={thumbTribie}
             title="Tribie"
           >
-            A tracking expense app for traveller community.
+            A tracking expense app for traveller community
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <WorkGridItem id="purru" thumbnail={thumbPurru} title="Purru">
+            An app for people with sleeping trouble
+            caused by racing thoughts
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -114,7 +112,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )

@@ -1,6 +1,8 @@
 import {
+  Box,
   Container,
   Badge,
+  Image,
   Link,
   List,
   ListItem,
@@ -12,37 +14,54 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="STYLY">
+  <Layout title="Purru">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        Purru <Badge>2022</Badge>
       </Title>
       <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
+      Purru is A native iOS App for people with 
+      sleeping trouble caused by racing thoughts 
+      that helps them calm their 
+      mind by using interactive guided imagery 
+      and relaxing sounds.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>iOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, PHP</span>
+          <span>SwiftUI, SceneKit</span>
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://styly.cc/">
-            STYLY <ExternalLinkIcon mx="2px" />
+          <Link href="https://purru.netlify.app">
+            Purru <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
+      <Box align="center" my={6}>
+        <Link
+          className="link-appstore"
+          href="https://apps.apple.com/id/app/purru/id6444001664"
+          target="_blank"
+        >
+          <Image
+            maxW={240}
+            src="/images/works/appstore.png"
+            className="image-appstore"
+            alt="Download on App Store"
+          />
+        </Link>
+      </Box>
+
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/YLdHAggLBCw"
+          src="https://www.youtube.com/embed/OyLU-bdjpOs"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
