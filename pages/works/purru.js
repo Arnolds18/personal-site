@@ -6,7 +6,8 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  AspectRatio,
+  SimpleGrid
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -69,10 +70,11 @@ const Work = () => (
         ></iframe>
       </AspectRatio>
 
-      <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/works/purru-03.png" alt="Purru" />
+      <SimpleGrid columns={2} gap={2}>
+      <WorkImage src="/images/works/purru-home.png" alt="Purru" />
+        <WorkImage src="/images/works/purru-04.png" alt="Purru" />
+      </SimpleGrid>
     </Container>
   </Layout>
 )

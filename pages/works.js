@@ -10,6 +10,7 @@ import thumbReplasc from '../public/images/works/replasc.png'
 import thumbMoneh from '../public/images/works/moneh-02.png'
 import thumbTribie from '../public/images/works/tribie-01.png'
 import thumbPurru from '../public/images/works/purru.png'
+import thumbSplit from "../public/images/works/splitbill.png"
 
 const Works = () => (
   <Layout title="Works">
@@ -61,11 +62,13 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="moneh" thumbnail={thumbMoneh} title="Moneh">
-          A money management app specially for collage students
+      <Section delay={0.3}>
+          <WorkGridItem id="purru" thumbnail={thumbPurru} title="Purru">
+            An app for people with sleeping trouble
+            caused by racing thoughts
           </WorkGridItem>
         </Section>
+
         <Section delay={0.3}>
           <WorkGridItem
             id="tribie"
@@ -75,14 +78,21 @@ const Works = () => (
             A tracking expense app for traveller community
           </WorkGridItem>
         </Section>
+       
         <Section delay={0.3}>
-          <WorkGridItem id="purru" thumbnail={thumbPurru} title="Purru">
-            An app for people with sleeping trouble
-            caused by racing thoughts
+          <WorkGridItem id="moneh" thumbnail={thumbMoneh} title="Moneh">
+          A money management app specially for collage students
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
 
+        <Section delay={0.3}>
+          <WorkGridItem id="splitbill" thumbnail={thumbSplit} title="Split Bill">
+            Split bill calculator
+          </WorkGridItem>
+        </Section>
+
+      </SimpleGrid>
+      
       {/* <Section delay={0.4}>
         <Divider my={6} />
 
