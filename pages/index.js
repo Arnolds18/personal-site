@@ -90,11 +90,11 @@ const Home = () => (
         More or less, he has 1 year of experience in iOS Development.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="" passHref scroll={false}>
+          <Link href="https://drive.google.com/file/d/1iOPPRf0a5jF_lU_B-Q8Sb8ZVZTmCLsCU/view?usp=sharing" target="_blank" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               See My Resume
             </Button>
-          </NextLink>
+          </Link>
         </Box>
         
       </Section>
