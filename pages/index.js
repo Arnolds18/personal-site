@@ -145,13 +145,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="mailto:arnolds1809@gmail.com" target="_blank">
+            <Link href="mailto:arnoldsidiprasetija@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoMail />}
               >
-                arnolds1809@gmail.com
+                arnoldsidiprasetija@gmail.com
               </Button>
             </Link>
           </ListItem>
