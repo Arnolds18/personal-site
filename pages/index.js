@@ -45,7 +45,7 @@ const Home = () => (
             Arnold Sidiprasetija
           </Heading>
           <p>
-            Bangkit Academy 2022 Graduate | Junior iOS Developer
+            Associate Data Product Manager
           </p>
         </Box>
         <Box
@@ -80,16 +80,11 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-        For now, Arnold is a final-year student of the Bachelor of Computer Engineering program at the Sepuluh Nopember Institute of Technology. 
-        His enthusiasm for data and software development began to emerge at the start of the college, where technological developments were very rapid. 
-        Therefore, during college, he also actively took online courses to increase his knowledge. 
-        Opportunities to study elsewhere were also taken, such as becoming part of the Bangkit Academy cohort led by Google, GoTo, and Traveloka, as well as be the Apple Developer Academy @UC 2022 cohort. 
-        At Bangkit Academy, he took the machine learning path to deepen his knowledge of data and successfully worked with Indosat Ooredoo Hutchison as the Company Capstone Project. 
-        While at the Apple Developer Academy @ UC, he took iOS Developer to deepen his knowledge in software development, especially in the Apple environment. 
-        More or less, he has 1 year of experience in iOS Development.
+        Arnold graduated with a Bachelor of Computer Engineering from the Sepuluh Nopember Institute of Technology and is now an Associate Data Product Manager at <Link href="https://www.linkedin.com/posts/sekolahmu_about-sekolahmu-and-pt-semesta-integrasi-activity-7060103474704773120-5zqp" isExternal>PT Semesta Integrasi Digital</Link>. His work focuses on developing data-driven products such as dashboards, AI solutions, and other innovations.
+        During his studies, Arnold actively enhanced his skills by joining prestigious programs like Bangkit Academy by Google, GoTo, and Traveloka, where he specialized in Machine Learning and collaborated with Indosat Ooredoo Hutchison on a capstone project. He also participated in the Apple Developer Academy @ UC, focusing on iOS development, where he gained a year of experience in building applications within the Apple ecosystem. These experiences laid a strong foundation for his current role, combining technical expertise with a passion for impactful product development.
         </Paragraph>
         <Box align="center" my={4}>
-          <Link href="https://drive.google.com/file/d/1iOPPRf0a5jF_lU_B-Q8Sb8ZVZTmCLsCU/view?usp=sharing" target="_blank" passHref scroll={false}>
+          <Link href="https://drive.google.com/file/d/1N2WURB4RboOBm009oHlCFL59d1gqGhZg/view?usp=sharing" target="_blank" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               See My Resume
             </Button>

@@ -56,20 +56,20 @@ const Work = () => (
         </ListItem>
       </List>
 
-      {/* <Box align="center" my={6}>
-        <Link
-          className="link-appstore"
-          href="https://itunes.apple.com/app/id1035645520?mt=8"
-          target="_blank"
-        >
-          <Image
-            maxW={240}
-            src="/images/works/appstore.png"
-            className="image-appstore"
-            alt="Download on App Store"
-          />
-        </Link>
-      </Box> */}
+      <Box align="center" my={6}>
+  {/* <Link
+    className="link-appstore"
+    href="https://play.google.com/store/apps/details?id=com.replasc.app"
+    target="_blank"
+  >
+    <Image
+      maxW={240}
+      src="/images/works/googleplay.png"
+      className="image-appstore"
+      alt="Get it on Google Play"
+    />
+  </Link> */}
+</Box>
 
       <WorkImage src="/images/works/replasc-01.png" alt="replasc" /> 
       <WorkImage src="/images/works/replasc-cert.png" alt="replasc" /> 
